@@ -115,6 +115,7 @@
                         <viewControllerLayoutGuide type="bottom" id="YeU-Sf-luY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tx8-XO-D6J">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kr4-IM-scN">
@@ -156,6 +157,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DUN-qN-fNX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="93m-kq-W3g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="service policy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DE3-LS-wLv">
@@ -197,6 +199,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Cct-FF-Yow"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xUh-hK-wNq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catagory" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skk-Ib-VfX">

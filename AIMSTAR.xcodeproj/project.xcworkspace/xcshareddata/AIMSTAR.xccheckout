@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B5560BCA-063E-4CD6-9AE5-FD6A69240665</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AIMSTAR</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6B495C85A4C2D73165217C96D0BA1A7383D4DDFE</key>
+		<string>https://github.com/rnut/AIMSTAR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AIMSTAR.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6B495C85A4C2D73165217C96D0BA1A7383D4DDFE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rnut/AIMSTAR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6B495C85A4C2D73165217C96D0BA1A7383D4DDFE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6B495C85A4C2D73165217C96D0BA1A7383D4DDFE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AIMSTAR</string>
+		</dict>
+	</array>
+</dict>
+</plist>
