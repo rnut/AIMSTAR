@@ -15,6 +15,10 @@
 		695AAC6E1A8A07E300B1D4D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695AAC6C1A8A07E300B1D4D8 /* LaunchScreen.xib */; };
 		695AAC7A1A8A07E300B1D4D8 /* AIMSTARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC791A8A07E300B1D4D8 /* AIMSTARTests.m */; };
 		695AAC871A8A080100B1D4D8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC861A8A080100B1D4D8 /* SWRevealViewController.m */; };
+		695AAC8A1A8A091900B1D4D8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC891A8A091900B1D4D8 /* LoginViewController.m */; };
+		695AAC8D1A8A092800B1D4D8 /* ServicePolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC8C1A8A092800B1D4D8 /* ServicePolicyViewController.m */; };
+		695AAC901A8A093100B1D4D8 /* CatagoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC8F1A8A093100B1D4D8 /* CatagoryViewController.m */; };
+		695AAC931A8A099D00B1D4D8 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC921A8A099D00B1D4D8 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,14 @@
 		695AAC791A8A07E300B1D4D8 /* AIMSTARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSTARTests.m; sourceTree = "<group>"; };
 		695AAC851A8A080100B1D4D8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		695AAC861A8A080100B1D4D8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		695AAC881A8A091900B1D4D8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		695AAC891A8A091900B1D4D8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		695AAC8B1A8A092800B1D4D8 /* ServicePolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePolicyViewController.h; sourceTree = "<group>"; };
+		695AAC8C1A8A092800B1D4D8 /* ServicePolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePolicyViewController.m; sourceTree = "<group>"; };
+		695AAC8E1A8A093100B1D4D8 /* CatagoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryViewController.h; sourceTree = "<group>"; };
+		695AAC8F1A8A093100B1D4D8 /* CatagoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryViewController.m; sourceTree = "<group>"; };
+		695AAC911A8A099D00B1D4D8 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		695AAC921A8A099D00B1D4D8 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,14 @@
 				695AAC641A8A07E300B1D4D8 /* ViewController.h */,
 				695AAC651A8A07E300B1D4D8 /* ViewController.m */,
 				695AAC671A8A07E300B1D4D8 /* Main.storyboard */,
+				695AAC911A8A099D00B1D4D8 /* MenuTableViewController.h */,
+				695AAC921A8A099D00B1D4D8 /* MenuTableViewController.m */,
+				695AAC881A8A091900B1D4D8 /* LoginViewController.h */,
+				695AAC891A8A091900B1D4D8 /* LoginViewController.m */,
+				695AAC8B1A8A092800B1D4D8 /* ServicePolicyViewController.h */,
+				695AAC8C1A8A092800B1D4D8 /* ServicePolicyViewController.m */,
+				695AAC8E1A8A093100B1D4D8 /* CatagoryViewController.h */,
+				695AAC8F1A8A093100B1D4D8 /* CatagoryViewController.m */,
 				695AAC6A1A8A07E300B1D4D8 /* Images.xcassets */,
 				695AAC831A8A07E900B1D4D8 /* third party */,
 				695AAC6C1A8A07E300B1D4D8 /* LaunchScreen.xib */,
@@ -240,10 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695AAC931A8A099D00B1D4D8 /* MenuTableViewController.m in Sources */,
 				695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */,
 				695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */,
+				695AAC8D1A8A092800B1D4D8 /* ServicePolicyViewController.m in Sources */,
+				695AAC901A8A093100B1D4D8 /* CatagoryViewController.m in Sources */,
 				695AAC601A8A07E300B1D4D8 /* main.m in Sources */,
 				695AAC871A8A080100B1D4D8 /* SWRevealViewController.m in Sources */,
+				695AAC8A1A8A091900B1D4D8 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
