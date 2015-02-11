@@ -96,11 +96,14 @@
                     </view>
                     <connections>
                         <outlet property="Tableview" destination="LFo-Rp-hiS" id="fi3-9X-lhR"/>
+                        <segue destination="8gg-lC-HS4" kind="custom" identifier="servLine" customClass="SWRevealViewControllerSeguePushController" id="5uT-h4-SsR"/>
+                        <segue destination="BSJ-bR-bty" kind="custom" identifier="loginLine" customClass="SWRevealViewControllerSeguePushController" id="jpT-fQ-icv"/>
+                        <segue destination="0Jg-5G-XZP" kind="custom" identifier="categoryLine" customClass="SWRevealViewControllerSeguePushController" id="HZI-nq-aYq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iet-VN-us6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-559.5" y="-141"/>
+            <point key="canvasLocation" x="-169.5" y="272"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -122,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-484.5" y="556.5"/>
+            <point key="canvasLocation" x="-1468.5" y="280"/>
         </scene>
         <!--Menu Table View Controller-->
         <scene sceneID="5Hi-dF-R4w">
@@ -149,9 +152,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="0Jg-5G-XZP" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="U0z-7W-Dgi"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="service policy" textLabel="IXn-J9-s1Y" style="IBUITableViewCellStyleDefault" id="uwS-rZ-wsW">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -169,9 +169,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="8gg-lC-HS4" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="FYi-V8-cad"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="login" textLabel="KII-T0-ChE" style="IBUITableViewCellStyleDefault" id="IXd-uW-pFd">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -189,9 +186,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="BSJ-bR-bty" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="mrS-w1-QNx"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="Erv-8H-kYw" style="IBUITableViewCellStyleDefault" id="GKT-XX-cfy">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -219,7 +213,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="elV-0H-ROQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="336" y="125.25"/>
+            <point key="canvasLocation" x="-2346" y="-55"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="f4S-3H-b5P">
@@ -322,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hzm-0c-DvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2107.5" y="332"/>
+            <point key="canvasLocation" x="1132.5" y="-636"/>
         </scene>
         <!--Service Policy View Controller-->
         <scene sceneID="Hbj-Ij-5YV">
@@ -364,7 +358,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IhY-0d-KK8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2101.5" y="993.75"/>
+            <point key="canvasLocation" x="2359.5" y="308"/>
         </scene>
         <!--Catagory View Controller-->
         <scene sceneID="5fe-sr-XXn">
@@ -596,7 +590,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LMj-g2-qD7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2098.5" y="1662"/>
+            <point key="canvasLocation" x="-583.5" y="1662"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ose-uj-jzw">
@@ -737,7 +731,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DtS-Zm-7ne" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3229.5" y="1662"/>
+            <point key="canvasLocation" x="354" y="1662"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OY1-ZH-Pfq">
@@ -895,7 +889,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adY-Xr-nO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4146" y="1669"/>
+            <point key="canvasLocation" x="1270.5" y="1669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vl0-9Q-umy">
@@ -1114,7 +1108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="54R-mC-Xqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4921.5" y="1669"/>
+            <point key="canvasLocation" x="2046" y="1669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="AYv-Ci-hy4">
@@ -1260,7 +1254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gwb-55-EOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5620.5" y="1669"/>
+            <point key="canvasLocation" x="2745" y="1669"/>
         </scene>
     </scenes>
     <resources>
@@ -1276,7 +1270,7 @@
         <image name="top_added_tocart.jpg" width="750" height="102"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="U0z-7W-Dgi"/>
-        <segue reference="ePW-BE-B3I"/>
+        <segue reference="HZI-nq-aYq"/>
+        <segue reference="Q6g-71-G7R"/>
     </inferredMetricsTieBreakers>
 </document>

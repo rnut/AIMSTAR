@@ -67,6 +67,28 @@
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self drilldownMenuWithIndexPath:indexPath];
+    [self pushBySegueWithIndexPath:indexPath];
+
+}
+
+
+-(void)pushBySegueWithIndexPath:(NSIndexPath *)indexPath{
+    if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"กลุ่มผลิตภัณฑ์"]) {
+        [self performSegueWithIdentifier:@"categoryLine" sender:nil];
+    }
+    else if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"นโยบายการให้บริการ"]) {
+        [self performSegueWithIdentifier:@"servLine" sender:nil];
+    }
+    else if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"เข้าสู่ระบบ"]) {
+        [self performSegueWithIdentifier:@"loginLine" sender:nil];
+    }
+    
+    
+    
+}
+#pragma mark drill down menu
+-(void)drilldownMenuWithIndexPath:(NSIndexPath *)indexPath{
     if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"กลุ่มผลิตภัณฑ์"]) {
         
         if (FlagCatagory == NO) {
@@ -92,12 +114,10 @@
             [self.Tableview endUpdates];
             FlagCatagory = NO;
         }
-
         
-
+        
+        
     }
-    
-    
     if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"นโยบายการให้บริการ"]) {
         if (FlagServ == NO) {
             FlagServ = YES;
@@ -121,8 +141,8 @@
             [MenuData removeObjectAtIndex:indexPath.row+1];
             [MenuData removeObjectAtIndex:indexPath.row+1];
             
-
-
+            
+            
             NSArray *deleteIndexPaths = [NSArray arrayWithObjects:
                                          [NSIndexPath indexPathForRow:indexPath.row+1 inSection:0],
                                          [NSIndexPath indexPathForRow:indexPath.row+2  inSection:0],
@@ -133,18 +153,20 @@
             [self.Tableview endUpdates];
             FlagServ = NO;
         }
-
+        
     }
+
 }
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"loginLine"])
+    {
+        NSLog(@"loginLine");
+    }
 }
-*/
+
 
 @end

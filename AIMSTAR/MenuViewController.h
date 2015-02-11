@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CellMenu.h"
+#import "SWRevealViewController/SWRevealViewController.h"
 @interface MenuViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
     NSMutableArray *MenuData;
