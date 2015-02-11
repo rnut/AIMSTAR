@@ -48,7 +48,7 @@
     switch ( indexPath.row )
     {
         case 0:
-            CellIdentifier = @"login";
+            CellIdentifier = @"catagory";
             break;
             
         case 1:
@@ -56,7 +56,7 @@
             break;
             
         case 2:
-            CellIdentifier = @"catagory";
+            CellIdentifier = @"login";
             break;
     }
     
