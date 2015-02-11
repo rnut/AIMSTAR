@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "SWRevealViewController.h"
 @interface LoginViewController : UIViewController
-
+{
+        IBOutlet UIImageView *topImg;
+}
 @property (nonatomic) IBOutlet UIBarButtonItem* revealButtonItem;
 @end

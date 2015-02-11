@@ -17,15 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self customSetup];
 }
 - (void)customSetup
 {
     SWRevealViewController *revealViewController = self.revealViewController;
     if ( revealViewController )
     {
-        [self.revealButtonItem setTarget: revealViewController];
-        [self.revealButtonItem setAction: @selector( revealToggle: )];
-        [self.navigationController.navigationBar addGestureRecognizer:revealViewController.panGestureRecognizer];
+//        [self.revealButtonItem setTarget: revealViewController];
+//        [self.revealButtonItem setAction: @selector( revealToggle: )];
+//        [self.navigationController.navigationBar addGestureRecognizer:revealViewController.panGestureRecognizer];
+        [topImg setUserInteractionEnabled:YES];
+        [topImg addGestureRecognizer:revealViewController.panGestureRecognizer];
     }
     
 //    _label.text = _text;

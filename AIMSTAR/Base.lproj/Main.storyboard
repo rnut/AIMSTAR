@@ -93,7 +93,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="0Jg-5G-XZP" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="VJx-Ul-5Wr"/>
+                                    <segue destination="BSJ-bR-bty" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="mrS-w1-QNx"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -128,11 +128,69 @@
                                     <rect key="frame" x="197" y="358" width="37" height="21"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interface_04.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OnT-td-wIn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interface_01.gif" translatesAutoresizingMaskIntoConstraints="NO" id="MHV-X6-4Fn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="20" width="400" height="56"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginview.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Mg-gK-9Rl">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OnT-td-wIn" firstAttribute="top" secondItem="7Mg-gK-9Rl" secondAttribute="bottom" constant="-2" id="CGY-6i-9av"/>
+                            <constraint firstItem="OnT-td-wIn" firstAttribute="leading" secondItem="tx8-XO-D6J" secondAttribute="leadingMargin" constant="-16" id="Cmx-Uc-vKt"/>
+                            <constraint firstItem="7Mg-gK-9Rl" firstAttribute="top" secondItem="7S9-fr-uOC" secondAttribute="bottom" constant="54" id="HaC-LK-oWZ"/>
+                            <constraint firstItem="7Mg-gK-9Rl" firstAttribute="top" secondItem="MHV-X6-4Fn" secondAttribute="bottom" constant="-2" id="Trj-Eb-a6b"/>
+                            <constraint firstItem="7Mg-gK-9Rl" firstAttribute="leading" secondItem="tx8-XO-D6J" secondAttribute="leadingMargin" constant="-16" id="VjB-v3-j8m"/>
+                            <constraint firstItem="YeU-Sf-luY" firstAttribute="top" secondItem="OnT-td-wIn" secondAttribute="bottom" id="Vxj-rq-gJ3"/>
+                            <constraint firstItem="YeU-Sf-luY" firstAttribute="top" secondItem="7Mg-gK-9Rl" secondAttribute="bottom" constant="48" id="il1-wh-qZ6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OnT-td-wIn" secondAttribute="trailing" constant="-16" id="ipw-f2-KHc"/>
+                            <constraint firstItem="7Mg-gK-9Rl" firstAttribute="width" secondItem="MHV-X6-4Fn" secondAttribute="width" id="oD1-7l-dks"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7Mg-gK-9Rl" secondAttribute="trailing" constant="-16" id="wDE-lS-nWu"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Kr4-IM-scN"/>
+                                <exclude reference="OnT-td-wIn"/>
+                                <exclude reference="MHV-X6-4Fn"/>
+                                <exclude reference="7Mg-gK-9Rl"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="HaC-LK-oWZ"/>
+                                <exclude reference="Trj-Eb-a6b"/>
+                                <exclude reference="VjB-v3-j8m"/>
+                                <exclude reference="oD1-7l-dks"/>
+                                <exclude reference="wDE-lS-nWu"/>
+                                <exclude reference="CGY-6i-9av"/>
+                                <exclude reference="Cmx-Uc-vKt"/>
+                                <exclude reference="ipw-f2-KHc"/>
+                                <exclude reference="Vxj-rq-gJ3"/>
+                                <exclude reference="il1-wh-qZ6"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="OnT-td-wIn"/>
+                                <include reference="MHV-X6-4Fn"/>
+                                <include reference="7Mg-gK-9Rl"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="HaC-LK-oWZ"/>
+                                <include reference="Trj-Eb-a6b"/>
+                                <include reference="VjB-v3-j8m"/>
+                                <include reference="oD1-7l-dks"/>
+                                <include reference="wDE-lS-nWu"/>
+                                <include reference="CGY-6i-9av"/>
+                                <include reference="Cmx-Uc-vKt"/>
+                                <include reference="ipw-f2-KHc"/>
+                                <include reference="Vxj-rq-gJ3"/>
+                                <include reference="il1-wh-qZ6"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -144,10 +202,13 @@
                     <navigationItem key="navigationItem" id="PYC-Z4-Dm3">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="LXD-Q3-eMj"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="topImg" destination="MHV-X6-4Fn" id="BYd-dl-qCl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hzm-0c-DvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2107.5" y="332.25"/>
+            <point key="canvasLocation" x="2107.5" y="332"/>
         </scene>
         <!--Service Policy View Controller-->
         <scene sceneID="Hbj-Ij-5YV">
@@ -270,7 +331,7 @@
                                                 <imageView userInteractionEnabled="NO" tag="99" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rgy-PE-onF">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                     <variation key="widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                        <rect key="frame" x="13" y="11" width="105" height="107"/>
                                                     </variation>
                                                 </imageView>
                                             </subviews>
@@ -413,6 +474,7 @@
                         <outlet property="ProductCollection" destination="goX-3d-vJ3" id="MRB-AH-pwA"/>
                         <outlet property="ProductCollection2" destination="ELw-a0-4GI" id="JpS-DR-Agh"/>
                         <outlet property="revealButtonItem" destination="Cau-Kj-XGU" id="5f3-ej-0XZ"/>
+                        <outlet property="topImg" destination="6Or-NV-BRz" id="WpU-hD-uT8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LMj-g2-qD7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -424,8 +486,9 @@
         <image name="interface_01.gif" width="375" height="51"/>
         <image name="interface_02.gif" width="375" height="164"/>
         <image name="interface_04.jpg" width="375" height="45"/>
+        <image name="loginview.png" width="221" height="342"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VJx-Ul-5Wr"/>
+        <segue reference="U0z-7W-Dgi"/>
     </inferredMetricsTieBreakers>
 </document>

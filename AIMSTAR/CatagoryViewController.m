@@ -60,6 +60,8 @@
     {
         [self.revealButtonItem setTarget: revealViewController];
         [self.revealButtonItem setAction: @selector( revealToggle: )];
+        [topImg setUserInteractionEnabled:YES];
+        [topImg addGestureRecognizer:revealViewController.panGestureRecognizer];
 //        [self.navigationController.navigationBar addGestureRecognizer:revealViewController.panGestureRecognizer];
     }
     

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ServicePolicyViewController : UIViewController
-
+{
+        IBOutlet UIImageView *topImg;
+}
 @end

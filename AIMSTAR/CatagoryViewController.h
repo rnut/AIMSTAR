@@ -15,6 +15,7 @@
     NSMutableArray *ProductArray2;
     IBOutlet UICollectionView *ProductCollection;
     IBOutlet UICollectionView *ProductCollection2;
+    IBOutlet UIImageView *topImg;
 }
 @property (nonatomic) IBOutlet UIBarButtonItem* revealButtonItem;
 @property(nonatomic,strong)NSMutableArray *ProductArray;
