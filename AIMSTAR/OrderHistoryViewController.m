@@ -7,16 +7,49 @@
 //
 
 #import "OrderHistoryViewController.h"
-
+#import "CellOrderHistoryViewCell.h"
 @interface OrderHistoryViewController ()
 
 @end
 
 @implementation OrderHistoryViewController
-
+@synthesize OrderArray;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    OrderArray = [[NSMutableArray alloc] init];
+    [OrderArray addObject:@"xxx"];
+    [OrderArray addObject:@"xxx"];
+    [OrderArray addObject:@"xxx"];
+    
+    [self.Tableview setDataSource:self];
+    [self.Tableview setDelegate:self];
+    
+}
+
+
+
+
+
+#pragma mark tableview
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return [OrderArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *simpleTableIdentifier = @"OrderCell";
+    
+    CellOrderHistoryViewCell *cell = (CellOrderHistoryViewCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    
+    if (cell == nil) {
+        cell = [[CellOrderHistoryViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+        
+    }
+    return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//    [self drilldownMenuWithIndexPath:indexPath];
+//    [self pushBySegueWithIndexPath:indexPath];
+    
 }
 
 - (void)didReceiveMemoryWarning {

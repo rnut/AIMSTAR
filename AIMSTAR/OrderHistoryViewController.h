@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OrderHistoryViewController : UIViewController
+@interface OrderHistoryViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)NSMutableArray *OrderArray;
 @property (strong, nonatomic) IBOutlet UITableView *Tableview;
 
 @end

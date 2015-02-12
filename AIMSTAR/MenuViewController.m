@@ -16,14 +16,15 @@
 @synthesize MenuData;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setMenu];
-    [self.Tableview setDataSource:self];
-    [self.Tableview setDelegate:self];
-    FlagLogin = NO;
+
+    FlagLogin = YES;
     FlagCatagory = NO;
     FlagServ = NO;
     
 
+    [self setMenu];
+    [self.Tableview setDataSource:self];
+    [self.Tableview setDelegate:self];
     [self.Tableview reloadData];
 }
 
@@ -74,14 +75,17 @@
 
 
 -(void)pushBySegueWithIndexPath:(NSIndexPath *)indexPath{
-    if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"กลุ่มผลิตภัณฑ์"]) {
+    if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"Category"]) {
         [self performSegueWithIdentifier:@"categoryLine" sender:nil];
     }
-    else if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"นโยบายการให้บริการ"]) {
+    else if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"นโยบายความเป็นส่วนตัว"]) {
         [self performSegueWithIdentifier:@"servLine" sender:nil];
     }
     else if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"เข้าสู่ระบบ"]) {
         [self performSegueWithIdentifier:@"loginLine" sender:nil];
+    }
+    else if ([[MenuData objectAtIndex:indexPath.row] isEqualToString:@"ประวัติการซื้อ"]) {
+        [self performSegueWithIdentifier:@"orderHisLine" sender:nil];
     }
     
     
