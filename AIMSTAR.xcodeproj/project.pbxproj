@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		69039A2D1A8C6AA6006390EC /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */; };
 		69039A301A8C73B7006390EC /* LanguageSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A2F1A8C73B7006390EC /* LanguageSettingViewController.m */; };
+		69039A331A8C8062006390EC /* CellOrderHistoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A321A8C8062006390EC /* CellOrderHistoryViewCell.m */; };
+		69039A361A8C80D0006390EC /* OrderHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A351A8C80D0006390EC /* OrderHistoryViewController.m */; };
+		69039A391A8C84D3006390EC /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A381A8C84D3006390EC /* Product.m */; };
+		69039A3F1A8C8644006390EC /* CategoryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A3E1A8C8644006390EC /* CategoryClass.m */; };
+		69039A451A8C86CA006390EC /* OrderClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A441A8C86CA006390EC /* OrderClass.m */; };
 		695AAC601A8A07E300B1D4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC5F1A8A07E300B1D4D8 /* main.m */; };
 		695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC621A8A07E300B1D4D8 /* AppDelegate.m */; };
 		695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC651A8A07E300B1D4D8 /* ViewController.m */; };
@@ -52,6 +57,16 @@
 		69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 		69039A2E1A8C73B7006390EC /* LanguageSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageSettingViewController.h; sourceTree = "<group>"; };
 		69039A2F1A8C73B7006390EC /* LanguageSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageSettingViewController.m; sourceTree = "<group>"; };
+		69039A311A8C8062006390EC /* CellOrderHistoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellOrderHistoryViewCell.h; sourceTree = "<group>"; };
+		69039A321A8C8062006390EC /* CellOrderHistoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellOrderHistoryViewCell.m; sourceTree = "<group>"; };
+		69039A341A8C80D0006390EC /* OrderHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderHistoryViewController.h; sourceTree = "<group>"; };
+		69039A351A8C80D0006390EC /* OrderHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderHistoryViewController.m; sourceTree = "<group>"; };
+		69039A371A8C84D3006390EC /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		69039A381A8C84D3006390EC /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		69039A3D1A8C8644006390EC /* CategoryClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryClass.h; path = ../CategoryClass.h; sourceTree = "<group>"; };
+		69039A3E1A8C8644006390EC /* CategoryClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryClass.m; path = ../CategoryClass.m; sourceTree = "<group>"; };
+		69039A431A8C86CA006390EC /* OrderClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderClass.h; sourceTree = "<group>"; };
+		69039A441A8C86CA006390EC /* OrderClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderClass.m; sourceTree = "<group>"; };
 		695AAC5A1A8A07E300B1D4D8 /* AIMSTAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIMSTAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695AAC5E1A8A07E300B1D4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		695AAC5F1A8A07E300B1D4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +126,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69039A401A8C8660006390EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69039A371A8C84D3006390EC /* Product.h */,
+				69039A381A8C84D3006390EC /* Product.m */,
+				69039A3D1A8C8644006390EC /* CategoryClass.h */,
+				69039A3E1A8C8644006390EC /* CategoryClass.m */,
+				69039A431A8C86CA006390EC /* OrderClass.h */,
+				69039A441A8C86CA006390EC /* OrderClass.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		69039A411A8C8672006390EC /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				69039A341A8C80D0006390EC /* OrderHistoryViewController.h */,
+				69039A351A8C80D0006390EC /* OrderHistoryViewController.m */,
+				69039A311A8C8062006390EC /* CellOrderHistoryViewCell.h */,
+				69039A321A8C8062006390EC /* CellOrderHistoryViewCell.m */,
+				69039A2E1A8C73B7006390EC /* LanguageSettingViewController.h */,
+				69039A2F1A8C73B7006390EC /* LanguageSettingViewController.m */,
+				6985A6E71A8B537000DDA5D3 /* MenuViewController.h */,
+				6985A6E81A8B537000DDA5D3 /* MenuViewController.m */,
+				6985A6EA1A8B539700DDA5D3 /* CellMenu.h */,
+				6985A6EB1A8B539700DDA5D3 /* CellMenu.m */,
+				695AAC881A8A091900B1D4D8 /* LoginViewController.h */,
+				695AAC891A8A091900B1D4D8 /* LoginViewController.m */,
+				695AAC8B1A8A092800B1D4D8 /* ServicePolicyViewController.h */,
+				695AAC8C1A8A092800B1D4D8 /* ServicePolicyViewController.m */,
+				695AAC8E1A8A093100B1D4D8 /* CatagoryViewController.h */,
+				695AAC8F1A8A093100B1D4D8 /* CatagoryViewController.m */,
+				69039A2B1A8C6AA6006390EC /* ProductDetailViewController.h */,
+				69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */,
+			);
+			name = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		69039A421A8C8686006390EC /* trash */ = {
+			isa = PBXGroup;
+			children = (
+				695AAC911A8A099D00B1D4D8 /* MenuTableViewController.h */,
+				695AAC921A8A099D00B1D4D8 /* MenuTableViewController.m */,
+			);
+			name = trash;
+			sourceTree = "<group>";
+		};
 		695AAC511A8A07E300B1D4D8 = {
 			isa = PBXGroup;
 			children = (
@@ -132,27 +194,14 @@
 		695AAC5C1A8A07E300B1D4D8 /* AIMSTAR */ = {
 			isa = PBXGroup;
 			children = (
+				69039A401A8C8660006390EC /* Model */,
 				695AAC611A8A07E300B1D4D8 /* AppDelegate.h */,
 				695AAC621A8A07E300B1D4D8 /* AppDelegate.m */,
 				695AAC641A8A07E300B1D4D8 /* ViewController.h */,
 				695AAC651A8A07E300B1D4D8 /* ViewController.m */,
 				695AAC671A8A07E300B1D4D8 /* Main.storyboard */,
-				695AAC911A8A099D00B1D4D8 /* MenuTableViewController.h */,
-				695AAC921A8A099D00B1D4D8 /* MenuTableViewController.m */,
-				69039A2E1A8C73B7006390EC /* LanguageSettingViewController.h */,
-				69039A2F1A8C73B7006390EC /* LanguageSettingViewController.m */,
-				6985A6E71A8B537000DDA5D3 /* MenuViewController.h */,
-				6985A6E81A8B537000DDA5D3 /* MenuViewController.m */,
-				6985A6EA1A8B539700DDA5D3 /* CellMenu.h */,
-				6985A6EB1A8B539700DDA5D3 /* CellMenu.m */,
-				695AAC881A8A091900B1D4D8 /* LoginViewController.h */,
-				695AAC891A8A091900B1D4D8 /* LoginViewController.m */,
-				695AAC8B1A8A092800B1D4D8 /* ServicePolicyViewController.h */,
-				695AAC8C1A8A092800B1D4D8 /* ServicePolicyViewController.m */,
-				695AAC8E1A8A093100B1D4D8 /* CatagoryViewController.h */,
-				695AAC8F1A8A093100B1D4D8 /* CatagoryViewController.m */,
-				69039A2B1A8C6AA6006390EC /* ProductDetailViewController.h */,
-				69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */,
+				69039A411A8C8672006390EC /* Viewcontroller */,
+				69039A421A8C8686006390EC /* trash */,
 				695AAC6A1A8A07E300B1D4D8 /* Images.xcassets */,
 				6985A6CE1A8B078000DDA5D3 /* Dummy Interface */,
 				695AAC831A8A07E900B1D4D8 /* third party */,
@@ -342,11 +391,16 @@
 				69039A301A8C73B7006390EC /* LanguageSettingViewController.m in Sources */,
 				695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */,
 				695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */,
+				69039A391A8C84D3006390EC /* Product.m in Sources */,
+				69039A451A8C86CA006390EC /* OrderClass.m in Sources */,
 				695AAC8D1A8A092800B1D4D8 /* ServicePolicyViewController.m in Sources */,
 				69039A2D1A8C6AA6006390EC /* ProductDetailViewController.m in Sources */,
+				69039A331A8C8062006390EC /* CellOrderHistoryViewCell.m in Sources */,
 				695AAC901A8A093100B1D4D8 /* CatagoryViewController.m in Sources */,
 				695AAC601A8A07E300B1D4D8 /* main.m in Sources */,
 				695AAC871A8A080100B1D4D8 /* SWRevealViewController.m in Sources */,
+				69039A361A8C80D0006390EC /* OrderHistoryViewController.m in Sources */,
+				69039A3F1A8C8644006390EC /* CategoryClass.m in Sources */,
 				695AAC8A1A8A091900B1D4D8 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
