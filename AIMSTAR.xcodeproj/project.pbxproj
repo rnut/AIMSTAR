@@ -16,7 +16,6 @@
 		69039A451A8C86CA006390EC /* OrderClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A441A8C86CA006390EC /* OrderClass.m */; };
 		695AAC601A8A07E300B1D4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC5F1A8A07E300B1D4D8 /* main.m */; };
 		695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC621A8A07E300B1D4D8 /* AppDelegate.m */; };
-		695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC651A8A07E300B1D4D8 /* ViewController.m */; };
 		695AAC691A8A07E300B1D4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695AAC671A8A07E300B1D4D8 /* Main.storyboard */; };
 		695AAC6B1A8A07E300B1D4D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695AAC6A1A8A07E300B1D4D8 /* Images.xcassets */; };
 		695AAC6E1A8A07E300B1D4D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695AAC6C1A8A07E300B1D4D8 /* LaunchScreen.xib */; };
@@ -40,6 +39,7 @@
 		6985A6E61A8B3D0C00DDA5D3 /* top_added_tocart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6985A6E51A8B3D0C00DDA5D3 /* top_added_tocart.jpg */; };
 		6985A6E91A8B537000DDA5D3 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6985A6E81A8B537000DDA5D3 /* MenuViewController.m */; };
 		6985A6EC1A8B539700DDA5D3 /* CellMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6985A6EB1A8B539700DDA5D3 /* CellMenu.m */; };
+		69AE2BF21A8CA25300270F1C /* Purchasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AE2BF11A8CA25300270F1C /* Purchasing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +72,6 @@
 		695AAC5F1A8A07E300B1D4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		695AAC611A8A07E300B1D4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		695AAC621A8A07E300B1D4D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		695AAC641A8A07E300B1D4D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		695AAC651A8A07E300B1D4D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		695AAC681A8A07E300B1D4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		695AAC6A1A8A07E300B1D4D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		695AAC6D1A8A07E300B1D4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -106,6 +104,8 @@
 		6985A6E81A8B537000DDA5D3 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		6985A6EA1A8B539700DDA5D3 /* CellMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMenu.h; sourceTree = "<group>"; };
 		6985A6EB1A8B539700DDA5D3 /* CellMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMenu.m; sourceTree = "<group>"; };
+		69AE2BF01A8CA25300270F1C /* Purchasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Purchasing.h; sourceTree = "<group>"; };
+		69AE2BF11A8CA25300270F1C /* Purchasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Purchasing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +135,8 @@
 				69039A3E1A8C8644006390EC /* CategoryClass.m */,
 				69039A431A8C86CA006390EC /* OrderClass.h */,
 				69039A441A8C86CA006390EC /* OrderClass.m */,
+				69AE2BF01A8CA25300270F1C /* Purchasing.h */,
+				69AE2BF11A8CA25300270F1C /* Purchasing.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -194,18 +196,16 @@
 		695AAC5C1A8A07E300B1D4D8 /* AIMSTAR */ = {
 			isa = PBXGroup;
 			children = (
-				69039A401A8C8660006390EC /* Model */,
-				695AAC611A8A07E300B1D4D8 /* AppDelegate.h */,
-				695AAC621A8A07E300B1D4D8 /* AppDelegate.m */,
-				695AAC641A8A07E300B1D4D8 /* ViewController.h */,
-				695AAC651A8A07E300B1D4D8 /* ViewController.m */,
 				695AAC671A8A07E300B1D4D8 /* Main.storyboard */,
+				69039A401A8C8660006390EC /* Model */,
 				69039A411A8C8672006390EC /* Viewcontroller */,
 				69039A421A8C8686006390EC /* trash */,
 				695AAC6A1A8A07E300B1D4D8 /* Images.xcassets */,
 				6985A6CE1A8B078000DDA5D3 /* Dummy Interface */,
 				695AAC831A8A07E900B1D4D8 /* third party */,
 				695AAC6C1A8A07E300B1D4D8 /* LaunchScreen.xib */,
+				695AAC611A8A07E300B1D4D8 /* AppDelegate.h */,
+				695AAC621A8A07E300B1D4D8 /* AppDelegate.m */,
 				695AAC5D1A8A07E300B1D4D8 /* Supporting Files */,
 			);
 			path = AIMSTAR;
@@ -389,7 +389,7 @@
 				6985A6E91A8B537000DDA5D3 /* MenuViewController.m in Sources */,
 				6985A6EC1A8B539700DDA5D3 /* CellMenu.m in Sources */,
 				69039A301A8C73B7006390EC /* LanguageSettingViewController.m in Sources */,
-				695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */,
+				69AE2BF21A8CA25300270F1C /* Purchasing.m in Sources */,
 				695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */,
 				69039A391A8C84D3006390EC /* Product.m in Sources */,
 				69039A451A8C86CA006390EC /* OrderClass.m in Sources */,

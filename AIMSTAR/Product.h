@@ -16,6 +16,7 @@
 @property(nonatomic,strong) NSString *MP;
 @property(nonatomic,strong) NSString *PV;
 @property(nonatomic,strong) NSString *Category;
+@property(nonatomic,strong) NSString *Detail;
 @property(nonatomic,strong) UIImage *Image;
 
 @end

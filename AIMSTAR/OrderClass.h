@@ -10,11 +10,9 @@
 #import "Product.h"
 @interface OrderClass : NSObject
 
-@property(nonatomic,strong)NSString *Time;
-@property(nonatomic,strong)NSString *ID;
-@property(nonatomic,strong)NSString *Transport;
-@property(nonatomic,strong)NSString *Address;
-@property(nonatomic,strong)NSString *Type;
-@property(nonatomic,assign)NSInteger *Num;
-@property(nonatomic,strong)Product *OrderProduct;
+@property(nonatomic,strong)NSString *PurchaseID;
+@property(nonatomic,strong)Product *PuschaseProduct;
+@property(nonatomic,assign)NSInteger *Quantity;
+@property(nonatomic,assign)NSInteger *TotalPV;
+@property(nonatomic,assign)NSInteger *TotalPrize;
 @end
