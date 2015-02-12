@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    FlagLogin = YES;
+    FlagLogin = NO;
     FlagCatagory = NO;
     FlagServ = NO;
     
