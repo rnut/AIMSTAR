@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		69039A2D1A8C6AA6006390EC /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */; };
+		69039A301A8C73B7006390EC /* LanguageSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A2F1A8C73B7006390EC /* LanguageSettingViewController.m */; };
 		695AAC601A8A07E300B1D4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC5F1A8A07E300B1D4D8 /* main.m */; };
 		695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC621A8A07E300B1D4D8 /* AppDelegate.m */; };
 		695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC651A8A07E300B1D4D8 /* ViewController.m */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		69039A2B1A8C6AA6006390EC /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
 		69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		69039A2E1A8C73B7006390EC /* LanguageSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageSettingViewController.h; sourceTree = "<group>"; };
+		69039A2F1A8C73B7006390EC /* LanguageSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageSettingViewController.m; sourceTree = "<group>"; };
 		695AAC5A1A8A07E300B1D4D8 /* AIMSTAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIMSTAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695AAC5E1A8A07E300B1D4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		695AAC5F1A8A07E300B1D4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				695AAC671A8A07E300B1D4D8 /* Main.storyboard */,
 				695AAC911A8A099D00B1D4D8 /* MenuTableViewController.h */,
 				695AAC921A8A099D00B1D4D8 /* MenuTableViewController.m */,
+				69039A2E1A8C73B7006390EC /* LanguageSettingViewController.h */,
+				69039A2F1A8C73B7006390EC /* LanguageSettingViewController.m */,
 				6985A6E71A8B537000DDA5D3 /* MenuViewController.h */,
 				6985A6E81A8B537000DDA5D3 /* MenuViewController.m */,
 				6985A6EA1A8B539700DDA5D3 /* CellMenu.h */,
@@ -334,6 +339,7 @@
 				695AAC931A8A099D00B1D4D8 /* MenuTableViewController.m in Sources */,
 				6985A6E91A8B537000DDA5D3 /* MenuViewController.m in Sources */,
 				6985A6EC1A8B539700DDA5D3 /* CellMenu.m in Sources */,
+				69039A301A8C73B7006390EC /* LanguageSettingViewController.m in Sources */,
 				695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */,
 				695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */,
 				695AAC8D1A8A092800B1D4D8 /* ServicePolicyViewController.m in Sources */,
