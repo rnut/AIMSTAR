@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69039A2D1A8C6AA6006390EC /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */; };
 		695AAC601A8A07E300B1D4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC5F1A8A07E300B1D4D8 /* main.m */; };
 		695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC621A8A07E300B1D4D8 /* AppDelegate.m */; };
 		695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695AAC651A8A07E300B1D4D8 /* ViewController.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69039A2B1A8C6AA6006390EC /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 		695AAC5A1A8A07E300B1D4D8 /* AIMSTAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIMSTAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		695AAC5E1A8A07E300B1D4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		695AAC5F1A8A07E300B1D4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				695AAC8C1A8A092800B1D4D8 /* ServicePolicyViewController.m */,
 				695AAC8E1A8A093100B1D4D8 /* CatagoryViewController.h */,
 				695AAC8F1A8A093100B1D4D8 /* CatagoryViewController.m */,
+				69039A2B1A8C6AA6006390EC /* ProductDetailViewController.h */,
+				69039A2C1A8C6AA6006390EC /* ProductDetailViewController.m */,
 				695AAC6A1A8A07E300B1D4D8 /* Images.xcassets */,
 				6985A6CE1A8B078000DDA5D3 /* Dummy Interface */,
 				695AAC831A8A07E900B1D4D8 /* third party */,
@@ -332,6 +337,7 @@
 				695AAC661A8A07E300B1D4D8 /* ViewController.m in Sources */,
 				695AAC631A8A07E300B1D4D8 /* AppDelegate.m in Sources */,
 				695AAC8D1A8A092800B1D4D8 /* ServicePolicyViewController.m in Sources */,
+				69039A2D1A8C6AA6006390EC /* ProductDetailViewController.m in Sources */,
 				695AAC901A8A093100B1D4D8 /* CatagoryViewController.m in Sources */,
 				695AAC601A8A07E300B1D4D8 /* main.m in Sources */,
 				695AAC871A8A080100B1D4D8 /* SWRevealViewController.m in Sources */,
